@@ -1,0 +1,10 @@
+{
+  "name": "@cawfree/react-native-safely-nested-list",
+  "version": "1.0.0",
+  "description": "For those rare times a nested FlatList needs to take over.",
+  "main": "index.js",
+  "repository": "https://github.com/Cawfree/react-native-safely-nested-list",
+  "author": "Alex Thomas (@cawfree)",
+  "license": "MIT",
+  "private": false
+}
