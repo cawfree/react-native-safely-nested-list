@@ -26,7 +26,7 @@ const {
   height,
 } = Dimensions.get('window');
 
-export default class SafelyNestedList extends React.Component {
+export default class App extends React.Component {
   state = {
     nestedScrollEnabled: false,
   }
@@ -51,6 +51,7 @@ export default class SafelyNestedList extends React.Component {
               height,
               backgroundColor,
             }}
+            nestedScrollEnabled={nestedScrollEnabled}
           />
         )}
       />
